@@ -21,4 +21,20 @@ public class Reservation {
         return customer.toString() + " reserves: " + room.toString() +
                 "\n during " + checkInDate.toString() + ", " + checkOutDate.toString();
     }
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public IRoom getRoom() {
+        return room;
+    }
+
+    public Date getCheckInDate() {
+        return checkInDate;
+    }
+
+    public Date getCheckOutDate() {
+        return checkOutDate;
+    }
 }
