@@ -1,2 +1,4 @@
-package service;public class CustomerService {
+package service;
+
+public class CustomerService {
 }
